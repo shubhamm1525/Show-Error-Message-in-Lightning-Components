@@ -17,7 +17,7 @@ Link for JS Substring method documentation : (https://www.w3schools.com/jsref/js
 
 "Error message: Upsert failed. First exception on row 0 with id a0g6w000000SI08AAG; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, You are allowed to select only one Accounting Product ( Smart Accounting, Smart Accounting: Corporate, Classic Vista, Global Vista, Vista 5, PDEP ) per each individual Production Company: Primary Prod Co Product: [] "
 
-<b>Error After :<b>
+<b>Error After :</b>
  
 "You are allowed to select only one Accounting Product ( Smart Accounting, Smart Accounting: Corporate, Classic Vista, Global Vista, Vista 5, PDEP ) per each individual Production Company: Primary Prod Co Product: [] "
   
