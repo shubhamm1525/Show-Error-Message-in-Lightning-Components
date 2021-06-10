@@ -1,0 +1,21 @@
+else if(response.getState() == "ERROR"){
+
+              var errors = response.getError();
+              if (errors) {
+                  if (errors[0] && errors[0].message) {
+                      
+                      let errorMessage = errors[0].message;
+                      errorMessage  =  errorMessage.substring(errorMessage.indexOf(",") + 1);
+
+                      var toastEvent = $A.get("e.force:showToast");
+                      toastEvent.setParams({
+                          title : 'Error',
+                          message: errorMessage,
+                          duration:'5000',
+                          type: 'error',
+                          mode: 'dismissible'
+                      });
+                      toastEvent.fire();
+                  }
+              }
+          }
